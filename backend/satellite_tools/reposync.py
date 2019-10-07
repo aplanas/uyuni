@@ -565,7 +565,7 @@ class RepoSync(object):
                         sync_error = -1
                     except Exception as exc:
                         log(0, "Unhandled error occurred: {}".format(exc))
-                        sync_error = -1
+                        raise
 
                     if self.show_packages_only:
                         self.show_packages(plugin, repo_id)
