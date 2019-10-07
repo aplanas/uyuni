@@ -1,3 +1,4 @@
+- Add Ubuntu repository checksum index checking for flat and default repository formats
 - Remove auditlog-keeper
 - update doc link to point to new documentation server
 
